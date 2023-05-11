@@ -1,0 +1,58 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "abra a alexaGPT",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "alexaGPTIntent",
+          "slots": [
+            {
+              "name": "slotSearch",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "o que é {slotSearch}",
+            "qual é {slotSearch}",
+            "por que {slotSearch}",
+            "porque {slotSearch}",
+            "sabe {slotSearch} ",
+            "pergunta {slotSearch}",
+            "como {slotSearch}",
+            "aonde {slotSearch}",
+            "quando {slotSearch}",
+            "onde {slotSearch}",
+            "o que {slotSearch}",
+            "quem {slotSearch}",
+            "quanto {slotSearch}",
+            "fazer pesquisa {slotSearch}",
+            "qual {slotSearch}",
+            "Pesquisar {slotSearch}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "10"
+}
