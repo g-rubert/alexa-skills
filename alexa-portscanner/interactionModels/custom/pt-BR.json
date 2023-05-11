@@ -1,0 +1,46 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "iniciar varredura",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "PortScannerIntent",
+          "slots": [
+            {
+              "name": "slotWebsite",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "listar portas abertas em {slotWebsite}",
+            "analisar {slotWebsite}",
+            "analisar site {slotWebsite}",
+            "u r l {slotWebsite}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "6"
+}
